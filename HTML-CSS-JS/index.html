@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card de produto</title>
+        <link rel="stylesheet" type="text/css" href="_css/style.css"/>
+    </head>
+
+    <style>
+        body{
+            background-color: #D9CDF7;
+            display: flex;
+            justify-content: center;
+            flex-grow: 0;
+            align-items: center;
+            height: 100vh;
+            align-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .btn{
+            border: solid black 1px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 8px;
+            margin-top: 16px;
+        }
+
+        img{
+            margin-right: 16px;
+        }
+
+        .text{
+            margin-left: 16px;
+        }
+
+        .btn-rotate{
+            display: block;
+            width: 25px;
+            height: 20px;
+        }
+
+        .image{
+            display: flex;
+        }
+
+    </style>
+
+    <body>
+        <div class="image">
+            <img width="449" src="_img/sofa_360.gif" alt=""/>
+            <img class="btn-rotate" src="_img/btn-rotate.png" alt="">
+            <img style="display: none;" class="btn-rotate" src="_img/btn-exit.png" alt="">
+        </div>
+        <div class="text">
+            <div style="font-size: 10px; font-family: 'Lato';">CÓDIGO: 42404</div>
+            <div style="margin-top:16px; margin-bottom:16px;font-size: 32px; font-family: 'Crimson Pro';">Sogá Margot II - Rosé</div>
+            <div style="font-size: 16px; font-family: 'Lato';">R$ 4.000</div>
+            <div class="btn" style="font-family: 'Lato';">ADICIONAR À CESTA</div>
+        </div>
+    </body>
+</html>
